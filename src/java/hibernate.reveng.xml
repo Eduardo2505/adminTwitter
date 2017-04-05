@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="twitteroperation"/>
+  <table-filter match-name="registrobusqueda"/>
+  <table-filter match-name="followers"/>
+  <table-filter match-name="search"/>
+  <table-filter match-name="cuenta"/>
+  <table-filter match-name="friends"/>
+</hibernate-reverse-engineering>
