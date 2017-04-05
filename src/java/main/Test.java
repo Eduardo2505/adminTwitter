@@ -19,7 +19,7 @@ public class Test {
         //####### Esto es un modelo
 
         OperacionTwiterImpl daoope = new OperacionTwiterImpl();
-        //int cuenta = 1;
+        int cuenta = 2;
         //daoope.optenerSeguidoresPropios(cuenta);
         //daoope.optenerFriendsPropios(cuenta);
         //  daoope.purgar(cuenta);
@@ -29,8 +29,8 @@ public class Test {
         double lat = 19.350000;
         double lon = -99.150002;
         double res = 5;
-        String fecha = "2016-01-01";
-      //  daoope.optenerSeguidores("desayuno", cuenta, lat, lon, res, fecha);
+        String fecha = "2017-04-05";
+       daoope.optenerSeguidores("desayuno", cuenta, lat, lon, res, fecha);
 
 
         //crear();
@@ -38,7 +38,7 @@ public class Test {
         // empieza a seguir 
         
         
-        daoope.Seguir();
+       // daoope.Seguir();
 
 
 
@@ -50,14 +50,14 @@ public class Test {
 
         CuentaDaoImpl dao = new CuentaDaoImpl();
         Cuenta c = new Cuenta();
-        long ids = 3033706820L;
+        long ids =757675111411359744L;
 
         c.setId(ids);
-        c.setUsuario("carritoenlinea");
-        c.setAccessToken("vIinKJeYxPnFa9I9j8WzV7VLt");
-        c.setAccessTokenSecret("rrEbe8Awm9mBgdoGWQawn3p9nAKOW5xJ6NS2jWeiZ03mOaDRj8");
-        c.setConsumerKey("3033706820-VD64ZRYqoLmHUqmx3ETUZEc4uHW8aQ4iWdeLfen");
-        c.setConsumerSecret("ubssQLndnQyT3mYaX3EaxXaJKoLckqTfX4mf2MNCTLriL");
+        c.setUsuario("las_unitas");
+        c.setAccessToken("757675111411359744-i5ohbHEwSOwgJtDYIB4LwG7sV8vFGo0");
+        c.setAccessTokenSecret("LZT9WBRp9Tync3fp5pww4t6neb8the92Py2QAs8yUDw0D");
+        c.setConsumerKey("gBY9q1YimpELH3Kr04T9nQaNS");
+        c.setConsumerSecret("E8WnDMWnjn2WMGqHcg2w2POrhGllMxucgTO0D26Q9MgeYXzUiO");
 
         dao.insertar(c);
 

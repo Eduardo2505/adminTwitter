@@ -97,7 +97,6 @@ public class OperacionTwiterImpl implements OperacionTwiter {
 
         ASOperacionTwiterImpl dao = new ASOperacionTwiterImpl();
         long idRegistrobusqueda = dao.RegistroRegistrobusqueda(Buscaqueda, c.getIdcuenta());
-        ;
         try {
             Query query = new Query(Buscaqueda);
             QueryResult result;
